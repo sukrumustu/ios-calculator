@@ -25,6 +25,7 @@ body {
     flex-direction: column;
     color: white;
     padding: 20px;
+    position: relative;
 }
 
 .display-container{
@@ -67,20 +68,22 @@ body {
     font-size: 45px;
 }
 
-.button.function{
+#clear, #backspace, #percentage{
     color: black;
     background-color: #a5a5a5;
 }
 
-.button.num, .button.equal{
-    background-color:#333 ;
-}
+
 
 .button.operator{
     background-color: #f1a33c;
 }
 
-.button.number-0{
+.button.number{
+    background-color:#333 ;
+}
+
+.button.number.number-zero{
     border-radius: 55px;
     grid-column: 1 / span 2;
     justify-content: flex-start;
